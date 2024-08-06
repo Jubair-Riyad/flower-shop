@@ -132,3 +132,35 @@ body{
     font-weight: bold;
     text-decoration: underline;
 }
+
+/*ur Featured Flowers Second Section*/
+.Our-Featured-Flowers-Second-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 320px;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 150px;
+}
+.icon-section-box{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    height: 88px;
+    width: 88px;
+}
+.icon-description{
+    font-size: 24px;
+    text-align: center;
+}
