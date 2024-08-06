@@ -53,7 +53,9 @@ body{
 }
 
 /*Our Featured Flowers*/
-
+.flower-total-container{
+    margin-top: 150px;
+}
 .text-container{ 
     display: flex;
     flex-direction: column;
@@ -62,12 +64,14 @@ body{
 .title-featured-flower{
     font-size: 40px;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
 .description-featured-flower{
     font-size: 18px;
     width: 594px;
     height: 60px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .img-container{
@@ -139,6 +143,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .icon-section{
     display: flex;
     justify-content: center;
@@ -225,7 +230,12 @@ span{
 }
 
 /*instagram Images*/
-
+.instagram-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .instagram-title{
     font-size: 40px;
     font-weight: 900;
@@ -247,4 +257,76 @@ span{
 .img-insta-size{
     height: 396px;
     width: 342px;
+    padding: 10px;
+}
+
+/*Cupon*/
+.btn-subscribe{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #E55473;
+    border-radius: 10px;
+    border: none;
+    height: 64px;
+    width: 150px ;
+    margin: 0px 5px;
+}
+.cupon-email{
+    height: 64px;
+    width: 700px ;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+    margin: 0px 5px;
+}
+.cupon-input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cupon-container{
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 449px;
+}
+
+/*Footer*/
+.footer-container{
+    background-color: #111010;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    font-size: 48px ;
+    font-weight: 900;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-description{
+    font-size: 18px;
+    color: white;
+    width: 625px;
+    text-align: center
+}
+.footer-terms{
+    font-size: 16px;
+    color: #43545e;
+    text-align: center;
 }
